@@ -22,6 +22,8 @@ class Room
 
   def empty_room
     @guest_array = []
+
+    # @guest_array.each { |guest| remove_guest(guest)}
   end
 
 
